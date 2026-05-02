@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+traces/*.jsonl
+!traces/.gitkeep
+.idea/
+.vscode/
+*.log
+dist/
+build/
+.streamlit/secrets.toml
+.claude/settings.local.json

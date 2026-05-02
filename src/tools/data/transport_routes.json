@@ -1,0 +1,129 @@
+{
+  "_comment": "Curated common routes between major cities. Keys are alphabetically-sorted 'city_a|city_b' (case-insensitive). Costs in USD.",
+  "kyoto|tokyo": {
+    "mode": "train",
+    "duration_minutes": 135,
+    "cost_usd_min": 120,
+    "cost_usd_max": 150,
+    "notes": "Shinkansen Nozomi"
+  },
+  "osaka|tokyo": {
+    "mode": "train",
+    "duration_minutes": 165,
+    "cost_usd_min": 130,
+    "cost_usd_max": 160,
+    "notes": "Shinkansen Nozomi"
+  },
+  "kyoto|osaka": {
+    "mode": "train",
+    "duration_minutes": 30,
+    "cost_usd_min": 10,
+    "cost_usd_max": 15,
+    "notes": "JR Special Rapid"
+  },
+  "hiroshima|tokyo": {
+    "mode": "train",
+    "duration_minutes": 240,
+    "cost_usd_min": 130,
+    "cost_usd_max": 170,
+    "notes": "Shinkansen Nozomi"
+  },
+  "hiroshima|kyoto": {
+    "mode": "train",
+    "duration_minutes": 105,
+    "cost_usd_min": 80,
+    "cost_usd_max": 110,
+    "notes": "Shinkansen"
+  },
+  "barcelona|paris": {
+    "mode": "train",
+    "duration_minutes": 390,
+    "cost_usd_min": 80,
+    "cost_usd_max": 200,
+    "notes": "Renfe-SNCF high-speed"
+  },
+  "amsterdam|paris": {
+    "mode": "train",
+    "duration_minutes": 195,
+    "cost_usd_min": 50,
+    "cost_usd_max": 130,
+    "notes": "Thalys"
+  },
+  "brussels|paris": {
+    "mode": "train",
+    "duration_minutes": 90,
+    "cost_usd_min": 40,
+    "cost_usd_max": 100,
+    "notes": "Thalys / Eurostar"
+  },
+  "london|paris": {
+    "mode": "train",
+    "duration_minutes": 135,
+    "cost_usd_min": 60,
+    "cost_usd_max": 220,
+    "notes": "Eurostar via Channel Tunnel"
+  },
+  "florence|rome": {
+    "mode": "train",
+    "duration_minutes": 95,
+    "cost_usd_min": 20,
+    "cost_usd_max": 60,
+    "notes": "Frecciarossa"
+  },
+  "milan|rome": {
+    "mode": "train",
+    "duration_minutes": 180,
+    "cost_usd_min": 40,
+    "cost_usd_max": 100,
+    "notes": "Frecciarossa"
+  },
+  "florence|venice": {
+    "mode": "train",
+    "duration_minutes": 130,
+    "cost_usd_min": 30,
+    "cost_usd_max": 70,
+    "notes": "Frecciarossa"
+  },
+  "boston|new york": {
+    "mode": "train",
+    "duration_minutes": 220,
+    "cost_usd_min": 45,
+    "cost_usd_max": 180,
+    "notes": "Amtrak Acela / Northeast Regional"
+  },
+  "new york|washington": {
+    "mode": "train",
+    "duration_minutes": 195,
+    "cost_usd_min": 50,
+    "cost_usd_max": 200,
+    "notes": "Amtrak Acela / Northeast Regional"
+  },
+  "los angeles|san francisco": {
+    "mode": "flight",
+    "duration_minutes": 80,
+    "cost_usd_min": 90,
+    "cost_usd_max": 250,
+    "notes": "Domestic flights, ~1h gate-to-gate"
+  },
+  "delhi|mumbai": {
+    "mode": "flight",
+    "duration_minutes": 130,
+    "cost_usd_min": 50,
+    "cost_usd_max": 200,
+    "notes": "Domestic flights"
+  },
+  "bangkok|chiang mai": {
+    "mode": "flight",
+    "duration_minutes": 75,
+    "cost_usd_min": 30,
+    "cost_usd_max": 120,
+    "notes": "Domestic flights"
+  },
+  "seoul|tokyo": {
+    "mode": "flight",
+    "duration_minutes": 145,
+    "cost_usd_min": 150,
+    "cost_usd_max": 400,
+    "notes": "International short-haul"
+  }
+}
