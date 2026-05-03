@@ -1036,7 +1036,12 @@ if st.session_state.pending_questions and not plan_request:
 
 if plan_request:
     if not os.getenv("GEMINI_API_KEY"):
-        st.error("GEMINI_API_KEY is not set. Edit `.env` and refresh.")
+        st.error(
+            "GEMINI_API_KEY is not set. "
+            "Locally: edit `.env` and refresh. "
+            "On Streamlit Cloud: open the app's **Settings → Secrets** "
+            "and add `GEMINI_API_KEY = \"...\"`."
+        )
         st.stop()
 
     st.session_state.quota_exhausted_during_revision = False
